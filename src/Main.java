@@ -2,9 +2,9 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("안녕하세요");
-        System.out.println("반갑습니다.");
-        System.out.printf("잘 지내세요");
-        System.out.println("안녕히가세요");
+        String name = "Son";
+        int backnumber = 7;
+
+        System.out.println((name + backnumber).getClass().getName());
     }
 }
